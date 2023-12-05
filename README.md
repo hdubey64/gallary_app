@@ -1,2 +1,2 @@
-# gallary_app
+# gallery_app
 A photo Gallery Application
