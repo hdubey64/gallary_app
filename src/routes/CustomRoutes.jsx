@@ -4,7 +4,7 @@ const CustomRoutes = () => {
    return (
       <Routes>
          <Route path="/" element={<Gallery />} />
-         <Route path="/photo/" element={<PhotoDetails />} />
+         <Route path="/photoDetails/" element={<PhotoDetails />} />
       </Routes>
    );
 };
