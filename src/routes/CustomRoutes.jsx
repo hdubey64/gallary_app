@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import { Gallery, Photo } from "../Components";
+import { Gallery, PhotoDetails } from "../Components";
 const CustomRoutes = () => {
    return (
       <Routes>
          <Route path="/" element={<Gallery />} />
-         <Route path="/photo/" element={<Photo />} />
+         <Route path="/photo/" element={<PhotoDetails />} />
       </Routes>
    );
 };
