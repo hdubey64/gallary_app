@@ -2,13 +2,13 @@ import Photo from "../Photo/Photo";
 
 const Gallery = () => {
    return (
-      <section className="bg-blue-500 w-screen">
-         <main className="p-16 space-y-5">
-            <header className="bg-white w-full">
-               <h1 className="md:text-3xl md:font-bold md:py-2 md:px-5">
-                  Album Mingle
-               </h1>
-            </header>
+      <section className="bg-blue-500 w-screen pb-5">
+         <header className="bg-white w-full">
+            <h1 className="md:text-3xl md:font-bold md:py-2 md:px-5">
+               Album Mingle
+            </h1>
+         </header>
+         <main className="px-6">
             <div className="flex flex-col flex-wrap justify-center items-center md:flex-row  gap-5 p-5">
                <Photo />
                <Photo />
