@@ -9,8 +9,8 @@ const Gallery = () => {
                Album Mingle
             </h1>
          </header>
-         <main className="px-6">
-            <div className="flex flex-col flex-wrap justify-center items-center md:flex-row  gap-5 p-5">
+         <main className="p-6 space-y-10">
+            <div>
                <PhotoList />
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-10">
