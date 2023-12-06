@@ -1,4 +1,5 @@
 import Photo from "../Photo/Photo";
+import PhotoList from "../PhotoList/PhotoList";
 
 const Gallery = () => {
    return (
@@ -10,13 +11,7 @@ const Gallery = () => {
          </header>
          <main className="px-6">
             <div className="flex flex-col flex-wrap justify-center items-center md:flex-row  gap-5 p-5">
-               <Photo />
-               <Photo />
-               <Photo />
-               <Photo />
-               <Photo />
-               <Photo />
-               <Photo />
+               <PhotoList />
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-10">
                <button className="bg-white md:text-2xl md:font-semibold rounded md:py-1 md:px-8 hover:bg-slate-200  ">
