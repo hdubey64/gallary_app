@@ -1,4 +1,3 @@
-import Photo from "../Photo/Photo";
 import PhotoList from "../PhotoList/PhotoList";
 
 const Gallery = () => {

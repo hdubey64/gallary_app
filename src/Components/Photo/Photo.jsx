@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Photo = ({ galleyPic }) => {
+const Photo = ({ galleyPic, id }) => {
    return (
-      <Link to={`photoDetails/`}>
+      <Link to={`photoDetails/${id}`}>
          <img
             src={galleyPic}
             alt="Gallery Pic"
