@@ -6,7 +6,7 @@ const Photo = ({ galleyPic, id }) => {
          <img
             src={galleyPic}
             alt="Gallery Pic"
-            className="w-full md:w-48 rounded md:rounded-2xl border-4 border-white"
+            className="w-full md:w-72 rounded md:rounded-lg "
          />
       </Link>
    );
